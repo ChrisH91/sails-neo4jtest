@@ -80,6 +80,15 @@ module.exports.connections = {
     user: 'YOUR_POSTGRES_USER',
     password: 'YOUR_POSTGRES_PASSWORD',
     database: 'YOUR_POSTGRES_DB'
+  },
+
+  neo4j: {
+    adapter:  'sails-neo4j',
+    protocol: 'http://',
+    host:     'neo4j:jvcfjmr1@localhost',
+    port:     7474,
+    base:     '/db/data/',
+    debug:    true
   }
 
 
